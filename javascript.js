@@ -9,15 +9,15 @@
 let totalMinutes = 60; // 180 minutes
 let timeLeft = totalMinutes * 60; // Convert minutes to seconds
 let timerId;
-let timerKey = 'timeLeft_60'; // Unique key for the 120-min timer
+let timerKey = 'timeLeft_10'; // Unique key for the 120-min timer
 
 let additionalTimeInSeconds = 20; // 60 minutes and 30 seconds in seconds
 timeLeft += additionalTimeInSeconds;
 
 // Check if there is a saved time in localStorage
-if (localStorage.getItem('timeLeft')) {
-    timeLeft = parseInt(localStorage.getItem('timeLeft'), 10);
-} // basically this code is responsible for not changing time
+// if (localStorage.getItem('timeLeft')) {
+//     timeLeft = parseInt(localStorage.getItem('timeLeft'), 10);
+// } // basically this code is responsible for not changing time
 
 // Function to start the timer
 function startTimer() {
