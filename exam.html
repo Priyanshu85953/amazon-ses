@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MENTORS MANTRA</title>
+	<link rel="stylesheet" type="text/css" href="style.css">   
+	<!-- <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script> -->
+</head>
+<body>
+	
+	<header style="background-color: #3b5998">
+		<img src="https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/20241014_173614.png?alt=media&token=c29df049-b48d-4a0d-ac64-ff12841ac1fd" style="height:50px; width: 1450px;">
+
+	</header>
+	<div id="header_1">
+		<!-- Paper1 -->
+		<div class="just_2">
+			<div>Instructions</div>
+		</div>
+		<div class="just_2">
+			<div>Question Paper</div>
+		</div>
+	</div>
+	<div id="exam_name" class="left">
+		<div class="exam_names">JEE MAINS</div>
+	</div>
+	<div id="time" class="left">
+		Section
+		<div id="time_left">Time Left:</div>
+	</div>
+	<div id="section_names" class="left">
+		<!-- <div class="section_selected">Phy Sec 1</div>
+		<div class="section_unselected">Phy Sec 2</div>
+		<div class="section_unselected">Chem Sec 1</div>
+		<div class="section_unselected">Chem Sec 2</div> -->
+		<div class="section_unselected">Maths Sec 1</div>
+		<div class="section_unselected">Maths Sec 2</div>
+	</div>
+	<div id="view_in_lang" class="left">
+		<select id="lang_select" class="just_3">
+  			<option value="english">English</option>
+  			<option value="hindi">Hindi</option>
+		</select>
+		<div class="just_3">View in:</div>
+	</div>
+
+	<div id="question_area_scrollable" class="left">
+		<div  class="question-title">
+			<div id="question-title">Question no. 1 </div>
+			<button id="favourite" style="float: right;">Save</button>
+		</div>
+		<div id="area_with_background">
+			<img id="section_info_img" src="https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/IMG_20241015_173646.jpg?alt=media&token=1b12edb2-819f-4e8a-b39c-7e125ff6ea9e" style="height:350px; width: 1000px;">
+			<div id="quiz"></div>
+			
+			<img id="q1">
+			
+
+			
+			<div class="question">
+				
+					<div id="question-container" class="question"></div>
+					<div class="answers">
+						<label for="numerical-answer">Enter your answer:</label>
+						<input type="number" id="numerical-answer" name="numerical-answer" style="width: 200px; height: 40px;">
+					</div>
+					
+					
+					
+				
+			</div>
+			
+            <!-- <img id="q2" src="2.jpg">
+            <img id="q3" src="3.jpg"> -->
+
+
+		</div>
+	</div>
+	<!-- <div id="quiz">
+		<div class="slide active-slide">
+			<img src="your_image_url_here.jpg" alt="Question Image">
+		</div>
+	</div> -->
+
+	
+	<div id="next_options" class="left">
+		<div id="mfran" class="button">Mark for Review & Next</div>
+		<div id="cr" class="button">Clear Response</div>
+		<button class="button" id="previous">Previous</button>
+		<div id="next" class="button">Save and Next</div>
+	</div>
+
+	<div id="sidebar" >
+		<div id="person_info">
+			<div><img id="profile_img" src="https://www.digialm.com//OnlineAssessment/images/NewCandidateImage.jpg"></div>
+			<div id="cname">Priyanshu</div>
+		</div>
+		<div id="border">
+		    <div id="color_info">
+		    	<div class="just_4">
+					<span class="just_5" style="background-position: -7px -55px;"></span>
+					<span class="just_6">Answered</span>
+				</div>
+				<div class="just_4">
+					<span class="just_5" style="background-position: -42px -56px;"></span>
+					<span class="just_6">Not Answered</span>
+				</div>
+				<div class="just_4">
+					<span class="just_5" style="background-position: -107px -56px;"></span>
+					<span class="just_6">Not Visited</span>
+				</div>
+				<div class="just_4">
+					<span class="just_5" style="background-position: -75px -54px;"></span>
+					<span class="just_6">Marked for Review</span>
+				</div>
+				<div class="just_4" id="long">
+					<span class="just_5" style="background-position: -9px -87px;"></span>
+					<span class="just_6">Answered & Marked for Review (will be considered for evaluation)</span>
+				</div>
+			</div>
+		    
+			
+			<div id="questions_select_area">
+				<div id = "choose_text">Choose a Question</div>
+				<div id="palette-list">
+						<!-- <div class="nv item" id="btn1">1</div>
+						<div class="nv item" id="btn2">2</div>
+						<div class="nv item" id="btn3">3</div>
+						<div class="nv item" id="btn4">4</div>
+						<div class="nv item" id="btn5">5</div>
+						<div class="nv item" id="btn6">6</div> -->
+					
+					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div id="submit_container">
+		<div class="button" id="submit">Submit</div>
+	</div>
+
+	<div id="results" class="left"></div>
+	<div id = "favourite_box">
+		<button id="reload" >Reload</button>
+		<input type="checkbox" name="a" id="f_choice">Show only favourites</input>
+	</div>
+
+	<div id="favourites_view"></div>
+
+	<footer id="ultimate_footer"></footer>
+
+
+  	<select id="topics_list" style="position: absolute; right: 0px; top: 0px;">
+    	<option value="volvo">Select</option>
+	</select>
+	<script type="text/javascript" src="javascript.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+</html>  

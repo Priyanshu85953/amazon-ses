@@ -1,0 +1,17 @@
+{
+  "name": "aws-ses-email-sender",
+  "version": "1.0.0",
+  "description": "A Node.js application to send emails using AWS SES.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1691.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
