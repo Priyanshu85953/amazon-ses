@@ -7,7 +7,7 @@ const app = express();
 
 // Use CORS and allow requests from any origin
 app.use(cors({
-    origin: 'https://priyanshu85953.github.io/test'  // Replace this with your frontend URL if different
+    origin: 'https://priyanshu85953.github.io/test/'  // Replace this with your frontend URL if different
 }));
 app.use(bodyParser.json());
 app.use(bodyParser.json());
